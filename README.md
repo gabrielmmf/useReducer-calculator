@@ -35,17 +35,14 @@ But I'm always improving the code! 😀
 1. [About](#bookmark_tabs-about)
 2. [Features](#heavy_check_mark-features)
 3. [How to use](#crystal_ball-how-to-use)
-4. [Database diagram](#file_cabinet-database-diagram)
-5. [Technologies](#hammer-technologies)
-6. [Services Used](#gear-services-used)
-7. [Client Dependencies](#lock-client-dependencies)
-8. [Server Dependencies](#closed_lock_with_key-server-dependencies)
-9. [Project Roadmap](#round_pushpin-project-roadmap)
-10. [Running the project](#dvd-running-the-project)
-11. [Contributing](#memo-contributing)
-12. [Author](#boy-author)
-13. [Links](#link-links)
-14. [License](#balance_scale-license)
+4. [Technologies](#hammer-technologies)
+5. [Services Used](#gear-services-used)
+6. [Project Roadmap](#round_pushpin-project-roadmap)
+7. [Running the project](#dvd-running-the-project)
+8. [Contributing](#memo-contributing)
+9. [Author](#boy-author)
+10. [Links](#link-links)
+11. [License](#balance_scale-license)
 
 ---
 
@@ -201,7 +198,7 @@ function reducer(state, { type, payload }) {
 
 ![Database image](https://github.com/gabrielmmf/useReducer-calculator/blob/main/public/readme/diagram.png?raw=true) -->
 
-### :hammer: Technologies
+## :hammer: Technologies
 
 The following tools were used in the construction of the project:
 
@@ -242,7 +239,7 @@ The following tools were used in the construction of the project:
 
 --- -->
 
-### :round_pushpin: Project roadmap
+## :round_pushpin: Project roadmap
 
 - [x] Create Calculator design
   - [x] Create output div
@@ -253,7 +250,7 @@ The following tools were used in the construction of the project:
 
 ---
 
-### :dvd: Running the Project:
+## :dvd: Running the Project:
 
 <!-- #### You can test the application deployed [here]([netlify-deploy-url])
 
@@ -280,7 +277,7 @@ Open [http://localhost:3000](http://localhost:3000) to access the app in your br
 
 ---
 
-### :memo: Contributing
+## :memo: Contributing
 
 Any contributions you make are **greatly appreciated**.
 
@@ -300,7 +297,7 @@ $ git push origin feature/NewFeature
 
 ---
 
-### :boy: Author
+## :boy: Author
 
 <div align="center"> Made with ❤️ by </div>
 &nbsp;

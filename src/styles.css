@@ -1,0 +1,91 @@
+:root {
+  --background-color: #1e1e1e;
+  --foreground-color: #282828;
+  --input-background-color: #333333;
+  --font-color: #dadada;
+  --font-color-weak: #7f7f7f;
+  --accent-color: #7e57c2;
+  --accent-color-hover: #fe91ff;
+  --font-bit: 2rem;
+  --font-medium: 1.5rem;
+  --font-small: 0.8rem;
+  --box-shadow: rgba(0, 0, 0, 0.9) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  accent-color: var(--accent-color);
+}
+
+body {
+  margin: 0;
+  background: var(--background-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-box {
+  width: 26rem;
+  height: 39rem;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding-top: 1rem;
+}
+
+.calculator-grid {
+  margin: auto;
+  display: grid;
+  border-radius: 20px;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  justify-content: center;
+  width: 24rem;
+}
+.calculator-grid > button {
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 10px;
+  outline: none;
+  background-color: var(--accent-color);
+  color: var(--font-color);
+}
+.calculator-grid > button:hover,
+.calculator-grid > button:focus {
+  background-color: var(--accent-color-hover);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  border-radius: 10px;
+  background: var(--input-background-color);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0.7rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 1.3rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
+}

@@ -48,12 +48,13 @@ But I'm always improving the code! 😀
 
 ## :bookmark_tabs: About
 
-This is my project that allows you to login, logout and make a personal todo list. The user are allowed to add, delete or edit tasks
+This is my calculator coded in React.js using a different approach. Instead of using useState Hook, I used useReducer to manage the calculator State. Each calculator button call a dispatch function to change the calculator state based in the type of the action and the button value
 
 In this project, I reinforced my knowledge about:
 
 - React
-- Use Reducer React Hook
+- Javascript
+- UseReducer React Hook
 - CSS
 
 ---
